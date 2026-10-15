@@ -28,7 +28,7 @@ class Hotel:
         return len(data)
 
     def __eq__(self, other):
-        if self.hotel_id == self.hotel_id:
+        if self.hotel_id == other.hotel_id:
             return True
         else:
             return False
